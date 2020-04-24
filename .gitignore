@@ -25,7 +25,13 @@
 .packages
 .pub-cache/
 .pub/
-/build/
+
+!build/
+
+build/*
+!build/web/
+
+
 
 # Android related
 **/android/**/gradle-wrapper.jar
